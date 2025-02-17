@@ -1,0 +1,42 @@
+{
+  "name": "mypage-react-module",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "rsbuild dev --open",
+    "start": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "build:lang": "node modules/i18n/index.js",
+    "preview": "rsbuild preview",
+    "lint:js": "eslint --fix .",
+    "lint:css": "stylelint --fix --allow-empty-input"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rxjs": "7.8.1",
+    "i18next": "^23.11.4",
+    "react-i18next": "^14.1.1",
+    "@emotion/react": "^11.14.0",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/lab": "6.0.0-beta.27",
+    "@mui/material": "^6.4.4",
+    "@gogo/gui-share": "*",
+    "@gogo/share-mfe": "*",
+    "@gogo/tsconfig": "*"
+  },
+  "devDependencies": {
+    "@emotion/eslint-plugin": "11.11.0",
+    "@gogo/eslint-config": "*",
+    "@gogo/stylelint-config": "*",
+    "@ggj/build-i18n": "1.0.10",
+    "@rsbuild/core": "^1.2.3",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^8.47.0",
+    "typescript": "^5.7.3",
+    "@module-federation/rsbuild-plugin": "0.8.9",
+    "@module-federation/enhanced": "0.8.9"
+  }
+}

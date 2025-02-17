@@ -1,0 +1,31 @@
+{
+  "name": "mypage-react-component",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "start": "rsbuild dev --open",
+    "dev": "rsbuild dev --open",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rxjs": "7.8.1",
+    "@emotion/react": "11.11.1",
+    "@mui/icons-material": "^6.4.4",
+    "@mui/lab": "6.0.0-beta.27",
+    "@mui/material": "^6.4.4",
+    "@gogo/gui-share": "*"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^1.2.3",
+    "@rsbuild/plugin-react": "^1.1.0",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "eslint": "^8.47.0",
+    "typescript": "^5.7.3",
+    "@module-federation/rsbuild-plugin": "0.8.9",
+    "@module-federation/enhanced":"0.8.9"
+  }
+}

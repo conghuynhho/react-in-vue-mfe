@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@gogo/tsconfig/nextjs.json",
+  "compilerOptions": {
+    // "lib": ["DOM", "ES2020"],
+    // "jsx": "react-jsx",
+    // "target": "ES2020",
+    // "noEmit": true,
+    // "skipLibCheck": true,
+    // "useDefineForClassFields": true,
+    "jsxImportSource": "@emotion/react",
+
+    /* modules */
+    // "module": "ESNext",
+    // "isolatedModules": true,
+    // "resolveJsonModule": true,
+    // "moduleResolution": "Bundler",
+    // "allowImportingTsExtensions": true,
+
+    /* type checking */
+    // "strict": true,
+    // "noUnusedLocals": true,
+    // "noUnusedParameters": true
+  },
+  "include": ["src"]
+}
